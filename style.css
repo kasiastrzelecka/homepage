@@ -4,3 +4,9 @@ body {
 h2 {
     color: #1460AA;
 }
+footer {
+    background-color: green ;
+}
+article {
+    color: red
+}
