@@ -1,12 +1,26 @@
 body {
     background-color: #fefefe;
 }
-h2 {
-    color: #1460AA;
-}
+
 footer {
-    background-color: green ;
+    color:  green ;
 }
-article {
+.it-article {
     color: red
+}
+#tenis {
+    background-color: yellow;
+    color: green;
+}
+.main-title {
+    color: black;
+}
+.my-learning {
+    color:orange;
+}
+.my-git {
+    color:blue;
+}
+.navigation {
+    color: yellowgreen;
 }
