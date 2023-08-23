@@ -1,4 +1,4 @@
-alert("Witaj na mojej pierwszej stronie.");
+//alert("Witaj na mojej pierwszej stronie.");
 
 const firstName = "Kasia"
 const age = "37"
