@@ -1,24 +1,51 @@
-
-footer {
-    color:  green ;
+html {
+    box-sizing: border-box;
 }
-.it-article {
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.navigation  {
+    background-color: yellow;
+    padding: 16px;
+
+}
+.navigation__link {
+    color: blue;
+}
+
+.section {
+    background-color: rgb(197, 184, 184);
+    margin-bottom: 16px;
+    padding: 16px;
+    width: 100%;
+    max-width: 
+
+}
+
+h1 {
+    color: blue;
+    padding: 16px;
+    
+}
+.footer {
+    color:  green;
+    padding: 16px;
+}
+.section__it-article {
     color: red
 }
 #tenis {
     background-color: yellow;
     color: green;
 }
-.main-title {
+.main__title {
     color: black;
 }
-.my-learning {
+.section__my-learning {
     color:orange;
 }
-.my-git {
+.section__my-git {
     color:blue;
 }
-.navigation  {
-    color: yellow;
 
-}
