@@ -4,6 +4,38 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+.header{
+    position:sticky;
+    top:0;
+
+}
+.footer {
+    color:  green;
+    padding: 16px;
+    max-width: 768px;
+    margin: 0px auto;
+}
+.footer__top-link {
+    position:fixed;
+    bottom: 16px;
+    right:16px;
+
+}
+
+main {
+    max-width: 768px;
+    margin: 0px auto;
+}
+
+
+.main__title {
+    color: blue;
+    padding: 16px;
+    padding-left: 64px;
+    border: 2px solid red;
+
+    
+}
 
 .navigation  {
     background-color: yellow;
@@ -20,50 +52,48 @@ html {
 .navigation__link {
     color: blue;
     padding: 32px;
-  
-    
+   
 }
 
 .section {
     background-color: rgb(197, 184, 184);
-    margin-bottom: 8px;
+    margin-bottom: 32px;
     padding: 16px;
-    max-width: 800px;
-    min-width: 600px;
-    margin: 16px auto;
     border-radius: 32px;
     border: 3px solid black;
 
 }
+.section__title {
+    color: hotpink;
+}
+.section__title-special{
+    color:blueviolet
 
-.main__title {
-    color: blue;
-    padding: 16px;
-    border: 2px solid red;
-    max-width: 800px;
-    min-width: 600px;
-    margin: 16px auto;
+
+}
+
+.section__image {
+    max-width: 100%;
+    display: block;
+}
+
+.section__it-article {
+    background-color: aquamarine;
+    color: red
     
 }
-.footer {
-    color:  green;
-    padding: 16px;
-    max-width: 800px;
-    min-width: 600px;
-    margin:16px auto;
+
+.section__my-learning {
+    color:white;
+    background-color: blue;
 }
-.section__it-article {
-    color: red
+
+.section__my-git {
+    color:blue;
+    background-color: white;
 }
+
 #tenis {
     background-color: yellow;
     color: green;
 }
-
-.section__my-learning {
-    color:orange;
-}
-.section__my-git {
-    color:blue;
-}
-
