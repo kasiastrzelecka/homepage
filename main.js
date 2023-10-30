@@ -26,12 +26,11 @@ let y = {"sdasd": "aaa"};
 const x = 1;
 console.log(y.sdasd)
 
-function hello (imie, wiek) {
-  return 'hello ' + imie + wiek;
-}
-console.log(hello('Kasia',37))
 
-console.log(hello('Dorka',37))
 
 const hello2 = (imie,wiek) => (`Witaj, nazywa się ${imie} i mam ${wiek}lat`)
 console.log (hello2(firstName,age))
+
+const hello = (imie,wiek) => ("Hello ${imie)${wiek}")
+console.log ('Kasia',25)
+
