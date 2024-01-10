@@ -79,6 +79,7 @@ main {
 .section__image {
     max-width: 100%;
     height: auto;
+    display: block;
     
 }
 
@@ -102,13 +103,14 @@ main {
     grid-template-columns: repeat(3,1fr);
     gap:12px;
     justify-items: center;
+    align-items: center;
     
 }
 
 .section__image-hobby{
-    max-width: 33%;
+    max-width: 100%;
     height: auto;
-    display: flex;
+    
 }
 
 #tenis {
