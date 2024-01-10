@@ -75,12 +75,12 @@ main {
 .section__title-special{
     color:blueviolet
 
-
 }
 
 .section__image {
     max-width: 100%;
-    display: block;
+    height: auto;
+    
 }
 
 .section__it-article {
@@ -97,6 +97,18 @@ main {
 .section__my-git {
     color:blue;
     background-color: white;
+}
+.hobby__article-images{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.section__image-hobby{
+    max-width: 33%;
+    height: auto;
 }
 
 #tenis {
