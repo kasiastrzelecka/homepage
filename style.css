@@ -25,6 +25,21 @@ body {
     right:16px;
 
 }
+.hobby__profits{
+    display: grid;
+    grid-template-columns: 3 fr;
+    gap: 24px;
+
+}
+.hobby__profits-start{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.hobby__profits-end{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
 
 main {
     max-width: 768px;
@@ -51,12 +66,12 @@ main {
     max-width: 768px;
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
    
 }
 .navigation__link {
     color: blue;
-    padding: 32px;
+    padding: 12px;
    
 }
 
@@ -98,7 +113,7 @@ main {
     color:blue;
     background-color: white;
 }
-.hobby__article-images{
+.section__hobby-images{
     display:grid;
     grid-template-columns: repeat(3,1fr);
     gap:12px;
