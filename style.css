@@ -48,11 +48,12 @@ main {
 }
 
 
-.main__title {
+.main__title-major {
     color: blue;
     padding: 16px;
-    padding-left: 64px;
+    padding-left: 12px;
     border: 2px solid red;
+    font-size: 1.5rem;
 
     
 }
@@ -131,4 +132,15 @@ main {
 #tenis {
     background-color: yellow;
     color: green;
+}
+
+@media screen and (min-width: 768px)  {
+
+.main__title-major {
+    color: blue;
+    padding: 16px;
+    padding-left: 64px;
+    border: 2px solid red;
+    font-size: 2rem;
+    }
 }
