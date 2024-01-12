@@ -9,8 +9,7 @@ body {
     background-image: linear-gradient(135deg, #4158D0 27%, #C850C0 53%, #FFCC70 74%);
 }
 .header{
-    position:sticky;
-    top:0;
+    
 
 }
 .footer {
@@ -52,24 +51,28 @@ main {
     color: blue;
     padding: 16px;
     padding-left: 12px;
-    
-    font-size: 1.5rem;
-
-    
+    font-size: 1.5rem; 
 }
 
 .navigation  {
     background-color: yellow;
-    padding: 16px;
+    padding: 8 px;
     border-radius: 32px;
-    margin: 16px auto;
+    margin: 8px auto;
     border: 3px solid blue;
     max-width: 768px;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-   
+    display:none;
+    flex-direction: column;
+    align-items: center;   
+    position:absolute;
+    top:50px;
+    width: 100%;
+
 }
+.navigation__open{
+    display:flex;
+}
+
 .navigation__link {
     color: blue;
     padding: 12px;
@@ -133,12 +136,34 @@ main {
 
 @media screen and (min-width: 768px)  {
 
+    .header{
+        
+    
+    }
 .main__title-major {
     color: blue;
     padding: 16px;
     padding-left: 64px;
-   
     font-size: 2rem;
+}
+.navigation  {
+    background-color: yellow;
+    padding: 16px;
+    border-radius: 32px;
+    margin: 16px auto;
+    border: 3px solid blue;
+    max-width: 768px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position:sticky;
+    top:0px;
+   
+}
+.navigation__link {
+    color: blue;
+    padding: 12px;
+   
 }
     .section__my-git{
         color:white;
@@ -149,11 +174,16 @@ main {
         color: hotpink;
     }
     
-    }
+
     .section__it-article{
         color:white;
         background-color: blue;
     }
+    .hamburger {
+        
+    }
+}
+
 
     
 
