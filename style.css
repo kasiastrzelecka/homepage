@@ -52,7 +52,7 @@ main {
     color: blue;
     padding: 16px;
     padding-left: 12px;
-    border: 2px solid red;
+    
     font-size: 1.5rem;
 
     
@@ -84,36 +84,6 @@ main {
     border: 3px solid black;
 
 }
-.section__title {
-    color: hotpink;
-}
-.section__title-special{
-    color:blueviolet
-
-}
-
-.section__image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    
-}
-
-.section__it-article {
-    background-color: aquamarine;
-    color: red
-    
-}
-
-.section__my-learning {
-    color:white;
-    background-color: blue;
-}
-
-.section__my-git {
-    color:blue;
-    background-color: white;
-}
 .section__hobby-images{
     display:grid;
     grid-template-columns: repeat(3,1fr);
@@ -128,6 +98,33 @@ main {
     height: auto;
     
 }
+.section__image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+}
+.section__it-article {
+    background-color: aquamarine;
+    color: red
+    
+}
+.section__my-learning {
+    color:white;
+    background-color: blue;
+}
+
+.section__my-git{
+    color:white;
+    background-color: blue;
+}
+.section__title {
+    color:red;
+}
+.section__title-special{
+    color:blueviolet
+
+}
 
 #tenis {
     background-color: yellow;
@@ -140,7 +137,23 @@ main {
     color: blue;
     padding: 16px;
     padding-left: 64px;
-    border: 2px solid red;
+   
     font-size: 2rem;
-    }
 }
+    .section__my-git{
+        color:white;
+        background-color: blue;
+    }
+
+    .section__title {
+        color: hotpink;
+    }
+    
+    }
+    .section__it-article{
+        color:white;
+        background-color: blue;
+    }
+
+    
+
