@@ -7,11 +7,9 @@ html {
 body {
     background-color: #4158D0;
     background-image: linear-gradient(135deg, #4158D0 27%, #C850C0 53%, #FFCC70 74%);
-}
-.header{
     
-
 }
+
 .footer {
     color:  green;
     padding: 16px;
@@ -22,6 +20,19 @@ body {
     position:fixed;
     bottom: 16px;
     right:16px;
+
+}
+.header{
+    position: sticky;
+    top: 0;
+
+}
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    font-size: 42px;
+
 
 }
 .hobby__profits{
@@ -64,12 +75,10 @@ main {
     display:none;
     flex-direction: column;
     align-items: center;   
-    position:absolute;
-    top:50px;
-    width: 100%;
+    
 
 }
-.navigation__open{
+.navigation__open {
     display:flex;
 }
 
@@ -108,7 +117,7 @@ main {
     
 }
 .section__it-article {
-    background-color: aquamarine;
+    background-color: blue;
     color: red
     
 }
@@ -136,10 +145,12 @@ main {
 
 @media screen and (min-width: 768px)  {
 
-    .header{
-        
+    .header {
+        position: sticky;
+        top: 0 px;
     
     }
+
 .main__title-major {
     color: blue;
     padding: 16px;
@@ -156,9 +167,10 @@ main {
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
-    position:sticky;
-    top:0px;
    
+}
+.navigation__open {
+    display: ;
 }
 .navigation__link {
     color: blue;
@@ -179,9 +191,7 @@ main {
         color:white;
         background-color: blue;
     }
-    .hamburger {
-        
-    }
+    
 }
 
 
