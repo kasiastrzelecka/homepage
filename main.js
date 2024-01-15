@@ -7,6 +7,14 @@ console.log(`Tutaj Nazywam się ${firstName} i mam ${age}lat`);
     
 const header = document.querySelector('.main__title-js');
 
+const hamburger = document.querySelector(".hamburger__js");
+
+hamburger.addEventListener('click', () => {
+  const navigation = document.querySelector ('.navigation--js');
+  navigation.classList.toggle('navigation--open')
+})
+
+
 
 
 const title = document.querySelector('.section__title-js');
