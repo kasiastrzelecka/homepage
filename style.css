@@ -59,7 +59,16 @@ main {
     margin: 0px auto;
    
 }
+.main__title-major::before {
+    content:"";
+    display:block;
+    background-color: #FFFB7D;
+    background-image: linear-gradient(70deg, #FFFB7D 35%, #85FFBD 100%);
+    height: 10px;
+    width: 100%;
+    border-radius: 50px;
 
+}
 
 .main__title-major {
     color: blue;
