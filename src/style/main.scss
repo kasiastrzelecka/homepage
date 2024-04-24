@@ -65,9 +65,16 @@ body {
 main {
     max-width: 768px;
     margin: 0 auto;
+
 }
 
+
 .main{
+    &__title{
+       display:flex; 
+       justify-content: center;
+
+    }
     &__title-major::before {
         content:"";
         display:block;
@@ -79,15 +86,12 @@ main {
     }
     &__title-major {
         color: blue;
-        padding: 16px;
-        padding-left: 12px;
         font-size: 1.5rem; 
-
+        
+    
         @media screen and (min-width: 768px) {
             color: blue;
-            padding: 16px;
-            padding-left: 64px;
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
     }
 }
