@@ -105,14 +105,29 @@ main {
     display:none;
     flex-direction: column;
     align-items: center;
+    @media screen and (min-width: 768px)  {
+
+        padding: 16px;
+        margin: 16px auto;
+        max-width: 768px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
     &--open {
         display: flex;
+        @media screen and (min-width: 768px) {
+            display:none;
+        }
+
     }
     &__link {
         color: blue;
         padding: 12px;
+        
     }  
+    
 }
 
 .section {
@@ -140,8 +155,11 @@ main {
     }
     &__it-article {
         background-color: blue;
-        color: red  
-    }   
+        color: red;  
+        @media screen and (min-width: 768px)  {
+            color: white;
+        }
+    } 
     &__my-learning {
         color:white;
         background-color: blue;
@@ -149,9 +167,13 @@ main {
     &__my-git{
         color:white;
         background-color: blue;
+        
     }
     &__title {
         color:red;
+        @media screen and (min-width: 768px)  {
+                color: hotpink;
+            }
     }
     &__title-special{
         color:blueviolet
@@ -163,44 +185,6 @@ main {
     color: green;
 }
 
-@media screen and (min-width: 768px)  {
-
-.navigation  {
-    background-color: yellow;
-    padding: 16px;
-    border-radius: 32px;
-    margin: 16px auto;
-    border: 3px solid blue;
-    max-width: 768px;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-   
-}
-.navigation__open {
-    display:none;
-}
-.navigation__link {
-    color: blue;
-    padding: 12px;
-   
-}
-    .section__my-git{
-        color:white;
-        background-color: blue;
-    }
-
-    .section__title {
-        color: hotpink;
-    }
-    
-
-    .section__it-article{
-        color:white;
-        background-color: blue;
-    }
-    
-}
 
 
     
