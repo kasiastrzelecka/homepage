@@ -1,3 +1,3 @@
 const mojaZmienna ='Hello';
 
-console.log(`${mojaZmienna} Kasia`)
+console.log(`${mojaZmienna} Kasia`);
